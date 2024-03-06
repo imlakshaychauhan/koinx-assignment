@@ -1,0 +1,105 @@
+.s-container {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.top {
+  padding: 20px;
+  background-color: white;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+
+.heading img {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+  background-color: white;
+}
+
+.currency {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.currency span {
+  margin-left: 2px;
+  font-weight: 600;
+  font-size: 20px;
+  color: grey;
+  background-color: white;
+}
+
+.f-rank {
+  margin: 0 30px;
+  padding: 10px 15px;
+  background-color: rgb(142, 142, 142);
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.prices {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.d-price {
+  font-weight: bold;
+  font-size: 30px;
+  background-color: white;
+}
+
+.r-price {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: white;
+}
+.price-title {
+  margin-left: 20px;
+  align-items: start;
+  background-color: white;
+}
+
+.hike {
+  padding: 2px 5px;
+  background-color: rgb(187, 239, 187);
+  height: fit-content;
+  margin: 5px;
+  color: rgb(0, 155, 0);
+  font-weight: 600;
+  font-size: 19px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.time {
+  color: grey;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.price-title {
+  display: flex;
+  flex-direction: row;
+}

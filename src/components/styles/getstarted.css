@@ -1,0 +1,63 @@
+.getMain {
+    background-color: #0052FE;
+    color: white;
+    width: 400px;
+    height: fit-content;
+    margin-left: 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.getMain p {
+    background-color: #0052FE;
+}
+
+.getHeading {
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #0052FE;
+    /* margin-bottom: 10px; */
+    padding-bottom: 20px;
+}
+
+.desc {
+    font-size: 14px;
+    background-color: #0052FE;
+    line-height: 1.5;
+}
+
+.getMain img {
+    width: 300px;
+    height: 300px;
+    background-color: #0052FE;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.getBtn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.getDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #0052FE;
+}
+
+@media screen and (max-width: 1348px) {
+    .getMain {
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 0 auto;
+        /* margin-left: 0px; */
+    }
+}
