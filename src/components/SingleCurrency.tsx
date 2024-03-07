@@ -2,6 +2,7 @@ import About from "./About";
 import List from "./List";
 import Overview from "./Overview";
 import Sentiment from "./Sentiment";
+import Team from "./Team";
 import Tokenomics from "./Tokenomics";
 import TradingViewWidget from "./TradingViewWidget";
 import "./styles/singlecurrency.css";
@@ -45,6 +46,7 @@ const SingleCurrency = ({ bitcoinPrice }) => {
       <Sentiment />
       <About />
       <Tokenomics />
+      <Team />
     </>
   );
 };

@@ -1,0 +1,16 @@
+.team-div {
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-div h1 {
+    background-color: white;
+    font-size: 24px;
+}
+
+.timepass {
+    background-color: white;
+    margin-top: 10px;
+}
