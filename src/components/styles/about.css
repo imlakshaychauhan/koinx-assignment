@@ -1,0 +1,71 @@
+.about-div {
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-div h1 {
+    background-color: white;
+    font-size: 24px;
+}
+
+.paragraph {
+    margin: 10px 0;
+background-color: white;
+}
+
+.question {
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.para-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(205, 205, 205);
+}
+
+.answer {
+    background-color: white;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.already-div {
+    margin-top: 10px;
+    background-color: white;
+}
+
+.already-div img {
+    width: 350px;
+    height: 130px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.img-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    margin: 10px 0;
+}
+
+
+@media screen and (max-width: 1464px) {
+    .img-divs {
+        flex-direction: column;
+        align-items: center;
+    }
+    .already-div img {
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .already-div img {
+        width: 280px;
+        height: 100px;
+    }
+}

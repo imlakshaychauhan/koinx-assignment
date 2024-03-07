@@ -61,3 +61,9 @@
         /* margin-left: 0px; */
     }
 }
+
+@media screen and (max-width: 600px) {
+    .getMain {
+        width: 300px;
+    }
+}

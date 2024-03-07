@@ -1,0 +1,64 @@
+.token-div {
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.token-div h1 {
+    background-color: white;
+    font-size: 24px;
+}
+
+.token-div h3 {
+    background-color: white;
+    margin: 20px 0;
+}
+
+.token-div img {
+    width: 100px;
+    height: 100px;
+}
+
+.token-div p{
+    padding: 5px 0;
+    background-color: white;
+}
+
+.token-main-div {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.f-token-bar {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(71, 71, 255);
+    border-radius: 100%;
+    margin: 0 10px;
+}
+.s-token-bar {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+.investor {
+    padding: 0 20px;
+    background-color: white;
+}
+
+.single-investor {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.single-investor p {
+    background-color: white;
+}

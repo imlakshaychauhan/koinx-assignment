@@ -1,0 +1,50 @@
+.key-div {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
+    background-color: rgb(218, 250, 255);
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+
+.key-div h3 {
+    background-color:rgb(218, 250, 255);
+}
+
+.key-content {
+    background-color: rgb(218, 250, 255);
+    margin: 0 10px;
+}
+
+.key-content p {
+    background-color: rgb(218, 250, 255);
+}
+
+.key-para {
+    margin: 10px 0;
+    color: rgb(77, 77, 77);
+}
+
+@media screen and (max-width: 945px) {
+    .key-div {
+        padding: 10px;
+        margin: 2px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .key-content p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 809px) {
+    .key-div {
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .key-content p {
+        font-size: 12px;
+    }
+}

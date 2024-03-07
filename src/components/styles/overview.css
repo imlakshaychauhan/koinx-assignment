@@ -1,0 +1,141 @@
+.overview {
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.overview h1 {
+    background-color: white;
+}
+.lh-section {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: white;
+    align-items: center;
+    padding-top: 30px;
+}
+.low p {
+    background-color: white;
+    padding: 0 15px;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+    font-size: 16px;
+}
+.high p {
+    background-color: white;
+    padding: 0 15px;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+    font-size: 16px;
+}
+
+.lh-line {
+    width: 70%;
+    height: 6px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, red,orange,yellow,green);
+    margin: 0 10px;
+}
+
+
+/* ------Fundamentals------ */
+.fundamentals {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+.fundamental-title {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.fundamental-title p{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+}
+.fundamentals img {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+
+/* -----ROW------- */
+
+.row {
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+}
+
+.row-line {
+    height: 1px;
+    background-color: grey;
+    width: 100%;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+.rows {
+    background-color: white;
+    width: 100%;
+}
+
+.row-price {
+    color: rgb(113, 113, 113);
+    background-color: white;
+}
+
+.row-currency {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 1567px) {
+    .row {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .columns {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1305px) {
+    .overview {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .rows {
+        background-color: white;
+        /* width: 100%; */
+        width: 300px;
+    }
+}

@@ -1,11 +1,9 @@
 .trending-div {
     margin-left: 100px;
-    /* border: 1px solid red; */
     margin-top: 20px;
     border-radius: 10px;
     background-color: white;
     padding: 40px;
-    width: 400px;
 }
 
 .trending-div h1 {
@@ -57,5 +55,12 @@
         justify-content: center;
         justify-items: center;
         margin: 0 auto;
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .trending-div {
+        width: 260px;
     }
 }

@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 30px;
+  padding: 10px 20px;
   background-color: white;
   align-items: center;
   border-bottom: 0.2px solid rgb(193, 193, 193);

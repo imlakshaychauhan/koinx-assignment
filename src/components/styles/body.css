@@ -4,6 +4,7 @@
     flex-direction: row;
     border: 1px solid green;
     margin: 40px;
+    /* width: 100%; */
     /* background-color: white; */
 }
 
@@ -17,8 +18,13 @@
     /* background-color: white; */
 }
 
-@media screen and (max-width: 1348px) {
+@media screen and (max-width: 1459px) {
     .container {
         flex-direction: column;
+        text-align: center;
+        justify-content: center; /* Center the child div horizontally */
+        align-items: center; /* Center the child div vertically */    
     }
+
 }
+
