@@ -24,7 +24,6 @@ const Body = () => {
     axios
       .request(options)
       .then(function (response) {
-        console.log(response.data.bitcoin);
         setBitcoinPrice(response.data.bitcoin);
       })
       .catch(function (error) {
