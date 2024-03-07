@@ -7,8 +7,18 @@ import right from "../assets/right.png";
 interface Coin {
   // Define the structure of the coin object
   // Adjust these properties according to your API response
-  i: string;
-  // Add other properties here
+  // For example:
+  item: {
+    thumb: string;
+    symbol: string;
+    data: {
+      price_change_percentage_24h: {
+        usd: number;
+      };
+      price: number;
+      sparkline: string;
+    };
+  };
 }
 
 interface CarouselProps {
@@ -20,7 +30,7 @@ const Carousel: React.FC<CarouselProps> = ({ coins }) => {
 
   const scrollLeft = () => {
     if (carouselRef.current) {
-      (carouselRef.current as HTMLDivElement).scrollBy({
+      carouselRef.current.scrollBy({
         left: -200,
         behavior: "smooth",
       });
@@ -29,7 +39,7 @@ const Carousel: React.FC<CarouselProps> = ({ coins }) => {
 
   const scrollRight = () => {
     if (carouselRef.current) {
-      (carouselRef.current as HTMLDivElement).scrollBy({
+      carouselRef.current.scrollBy({
         left: 200,
         behavior: "smooth",
       });
@@ -43,8 +53,8 @@ const Carousel: React.FC<CarouselProps> = ({ coins }) => {
       </div>
       <div className="carousel overflow-hidden" ref={carouselRef}>
         <div className="carousel-items">
-          {coins.map((coin, i) => (
-            <div key={coin.i} className="item">
+          {coins.map((coin, index) => (
+            <div key={index} className="item">
               <Card coin={coin} />
             </div>
           ))}
