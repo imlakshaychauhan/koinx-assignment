@@ -1,12 +1,60 @@
 .footer-div {
-    background-color: white;
-    width: 100%;
-    margin: 0 auto;
-    height: 500px; /*! just for testing, remove this afterwards. */
-    padding: 60px;
+  background-color: white;
+  /* width: 100%; */
+  /* margin: 0 auto; */
+  padding: 30px;
+  display: flex;
+  align-items: center;
 }
 
-.footer-div h1{
+.main-footer-div {  
+  background-color: white;
+  padding: 30px;
+}
+
+.main-footer-div h1 {
+  background-color: white;
+  font-size: 24px;
+}
+
+.carousel {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: 100%;
+  background-color: white;
+}
+
+.carousel-items {
+    display: flex;
     background-color: white;
-    font-size: 24px;
+}
+.overflow-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-buttons {
+    height: fit-content;
+    background-color: white;
+}
+.item {
+  background-color: white;
+  flex: 0 0 auto;
+  width: 200px; /* Adjust item width as needed */
+  margin-right: 10px; /* Adjust item margin as needed */
+  border: 1px solid rgb(212, 212, 212);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.scroll-buttons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: white;
+  border: 1px solid rgb(212, 212, 212);
+  cursor: pointer;
 }

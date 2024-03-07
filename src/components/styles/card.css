@@ -1,0 +1,40 @@
+.card {
+    background-color: white;
+}
+
+.card img {
+    background-color: white;
+}
+
+.name {
+    margin: 0 5px;
+    background-color: white;
+}
+
+.first-card-div {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+}
+
+.thumb {
+    width: 25px;
+    height: 25px;
+}
+
+.percent {
+    background-color: rgb(208, 255, 208);
+    padding: 2px 5px;
+    font-size: 10px;
+    color: green;
+    border-radius: 5px;
+}
+
+.price {
+    margin: 10px 0;
+}
+
+.sparkline {
+    width: 200px;
+}
