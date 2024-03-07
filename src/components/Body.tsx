@@ -3,6 +3,7 @@ import SingleCurrency from "./SingleCurrency";
 import "./styles/body.css";
 import axios from "axios";
 import GetStarted from "./GetStarted";
+import Footer from "./Footer";
 
 const Body = () => {
 

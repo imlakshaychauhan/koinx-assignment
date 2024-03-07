@@ -1,5 +1,6 @@
 import './App.css'
 import Body from './components/Body'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import TradingViewWidget from './components/TradingViewWidget'
 
@@ -10,6 +11,7 @@ function App() {
     {/* <TradingViewWidget /> */}
     <Navbar />
     <Body />
+    <Footer />
     </>
   )
 }

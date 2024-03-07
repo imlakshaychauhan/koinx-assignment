@@ -4,8 +4,7 @@
     flex-direction: row;
     border: 1px solid green;
     margin: 40px;
-    /* width: 100%; */
-    /* background-color: white; */
+    margin-bottom: 10px;
 }
 
 .left {

@@ -1,0 +1,12 @@
+.footer-div {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px; /*! just for testing, remove this afterwards. */
+    padding: 60px;
+}
+
+.footer-div h1{
+    background-color: white;
+    font-size: 24px;
+}
