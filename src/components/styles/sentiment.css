@@ -1,7 +1,6 @@
 .sentiment-div {
     /* border: 1px solid red; */
     margin: 40px;
-    
     padding: 20px;
     border-radius: 10px;
     background-color: white;
@@ -171,5 +170,13 @@
         height: 7px;
         margin: 0 10px;
         border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 1305px) {
+    .sentiment-div {
+        margin: 0 auto;
+        width: 600px;
+        margin-top: 10px;
     }
 }

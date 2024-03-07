@@ -4,7 +4,7 @@
   background-color: white;
   margin-bottom: 20px;
   width: 900px; /* Set the width of the parent div */
-  height: 580px; /* Set the height of the parent div */
+  height: 600px; /* Set the height of the parent div */
   overflow: hidden; /* Hide any content that exceeds the boundaries */
   position: relative; /* Ensure proper positioning of the child elements */
 }
