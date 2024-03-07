@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import "./styles/chart.css";
 
 function TradingViewWidget() {
-  const container = useRef(null); // Initialize with null
+  const container = useRef<HTMLDivElement>(null); // Explicitly specify the type of ref
 
   useEffect(() => {
     if (container.current) { // Check if container.current is not null

@@ -4,9 +4,15 @@ import "./styles/body.css";
 import axios from "axios";
 import GetStarted from "./GetStarted";
 
-const Body = () => {
+// Define a type for the BitcoinPrice object
+type BitcoinPrice = {
+  usd: number;
+  usd_24h_change: number;
+  inr: number;
+};
 
-  const [bitcoinPrice, setBitcoinPrice] = useState({});
+const Body = () => {
+  const [bitcoinPrice, setBitcoinPrice] = useState<BitcoinPrice | null>(null); // Explicitly type the bitcoinPrice state
 
   const options = {
     method: "GET",
@@ -29,7 +35,8 @@ const Body = () => {
   return (
     <div className="container">
       <div className="left">
-        <SingleCurrency bitcoinPrice={bitcoinPrice}  />
+        {/* Render SingleCurrency only if bitcoinPrice is not null */}
+        {bitcoinPrice && <SingleCurrency bitcoinPrice={bitcoinPrice} />}
       </div>
       <div className="right">
         <GetStarted />
