@@ -1,4 +1,3 @@
-import React from 'react'
 import "./styles/team.css"
 import ProfileCard from './ProfileCard'
 

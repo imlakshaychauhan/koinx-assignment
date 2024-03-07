@@ -7,7 +7,13 @@ import Tokenomics from "./Tokenomics";
 import TradingViewWidget from "./TradingViewWidget";
 import "./styles/singlecurrency.css";
 
-const SingleCurrency = ({ bitcoinPrice }) => {
+interface BitcoinPrice {
+  usd: number;
+  usd_24h_change: number;
+  inr: number;
+}
+
+const SingleCurrency: React.FC<{ bitcoinPrice: BitcoinPrice }> = ({ bitcoinPrice }) => {
   const usd = bitcoinPrice.usd;
   const usd_24h_change = bitcoinPrice.usd_24h_change;
 

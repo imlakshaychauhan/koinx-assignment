@@ -1,7 +1,6 @@
 import "./styles/getstarted.css";
 import getStarted from "../assets/get-started.png";
 import TrendingCoins from "./TrendingCoins";
-import List from "./List";
 
 const GetStarted = () => {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/about.css";
 import fcard from "../assets/f-card.png";
 import scard from "../assets/s-card.png";

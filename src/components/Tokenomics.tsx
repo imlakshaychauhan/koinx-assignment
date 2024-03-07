@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/tokenomics.css";
 import bar from "../assets/bar.png";
 

@@ -1,9 +1,23 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import "./styles/trendingcoins.css";
 
+// Define a type for the coin object
+type Coin = {
+  item: {
+    thumb: string;
+    name: string;
+    symbol: string;
+    data: {
+      price_change_percentage_24h: {
+        usd: number;
+      };
+    };
+  };
+};
+
 const TrendingCoins = () => {
-  const [coins, setCoins] = useState([]);
+  const [coins, setCoins] = useState<Coin[]>([]); // Explicitly type the coins state
 
   const options = {
     method: "GET",
@@ -29,9 +43,9 @@ const TrendingCoins = () => {
         <div>
           {coins.map((coin) => {
             return (
-              <div className="coins">
+              <div className="coins" key={coin.item.name}>
                 <div className="left-coins">
-                  <img src={coin.item?.thumb} />
+                  <img src={coin.item.thumb} alt={coin.item.name} />
                   <p className="coin-name">{coin.item.name} ({coin.item.symbol})</p>
                 </div>
                 <div className="right-coins">
